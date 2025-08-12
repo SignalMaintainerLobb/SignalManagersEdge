@@ -1,0 +1,35 @@
+Manager’s Edge Spreadsheet – README
+
+Purpose
+This spreadsheet helps managers track, forecast, and stress-test maintenance expenses over multiple years. It compares standard spend, call-based expenses, and wage inflation impacts to optimize testing schedules and resource allocation.
+
+User Inputs
+| Input Field                   | Description | 
+| CALLS PER YEAR 		| Number of maintenance calls expected annually | 
+| HOURS / CALL 			| Average hours spent per maintenance call | 
+| YOUR LAST YEAR WAGE 		| Manager’s wage from the previous year | 
+| WAGE INFLATION 		| Annual wage inflation rate (e.g., 0.04 for 4%) | 
+| STRESS TEST CALLS AMOUNT 	| Hypothetical high-call volume for stress testing (must exceed actual calls) | 
+| TEST FREQUENCY 		| Number of times each test type occurs per year (monthly, quarterly, yearly) | 
+| HOURS NEEDED PER TEST 	| Estimated hours required for each test type | 
+
+
+
+Outputs
+| Output Field 			| Description | 
+| YOUR STANDARD SPEND 		| Total cost of scheduled maintenance based on standard testing | 
+| CALL SPEND 			| Total cost of reactive call-based maintenance | 
+| EXPECTED SPEND 		| Projected annual maintenance spend including inflation | 
+| STRESS TEST CALL COST 	| Cost of maintenance under stress test conditions | 
+| STRESS TEST WAGE 		| Wage-adjusted cost under stress test scenarios | 
+| TESTING COSTS PER YEAR 	| Breakdown of costs for monthly, quarterly, and yearly tests | 
+| HOURS MANAGER CAN SPEND 	| Time available for cost-cutting or optimization efforts | 
+| MANAGER’S EDGE INDEX 		| A calculated metric showing how effectively a manager is managing expenses | 
+
+
+
+Notes
+- The spreadsheet includes multi-year projections (up to 23 years) to help visualize long-term trends.
+- Stress testing helps simulate worst-case scenarios and evaluate system resilience.
+- Wage inflation and testing frequency directly impact total cost and time allocation.
+
